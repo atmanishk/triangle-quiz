@@ -10,7 +10,7 @@ function calculateSumOfSquares(a, b){
 function calculateHypotenuse(){
     const sumOfSquares = calculateSumOfSquares(Number(sides[0].value), Number(sides[1].value));
     const hypotenuse = Math.sqrt(sumOfSquares);
-    outputE1.innerText = "Hypotenuse is : " + hypotenuse;
+    outputE1.innerText = "Hypotenuse of triangle is : " + hypotenuse;
 }
 
 hypotenuseBtn.addEventListener("click", calculateHypotenuse);

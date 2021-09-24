@@ -10,7 +10,7 @@ function calculateProductOfSides(a, b){
 function calculateArea(){
     const productofSides = calculateProductOfSides(Number(sides[0].value), Number(sides[1].value));
     const area = parseFloat(productofSides/2);
-    outputE1.innerText = "area is : " + area;
+    outputE1.innerText = "Area of circle is : " + area;
 }
 
 areaBtn.addEventListener("click", calculateArea);

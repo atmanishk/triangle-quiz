@@ -10,10 +10,10 @@
 <body>
     <nav>
         <a href="index.html">Home</a>
-        <a href="istriangle.html">Is Triangle</a>
+        <a href="area.html">Find Area</a>
+        <a href="istriangle.html">Is a Triangle?</a>
         <a href="quiz.html">Quiz</a>
         <a href="hypotenuse.html">Hypotenuse</a>
-        <a href="area.html">Area</a>
     </nav>
     
     <h1>Triangle Quiz</h1>
@@ -24,11 +24,29 @@
             <label><input type="radio" name = "questioin1" value="60" />60</label>
             <label><input type="radio" name = "questioin1" value="90" />90</label>
         </div>
-        <div class="question-controller">
+        <div class="question-container">
             <p>If a triangle has an angle of 90 degrees, what is it called? </p>
-            <label><input type="radio" name = "questioin2" value = "acute" />acute</label>
-            <label><input type="radio" name = "questioin2" value = "obtuse" />obtuse</label>
-            <label><input type="radio" name = "questioin2" value = "right angled triangle" />right angled</label>
+            <label><input type="radio" name = "question2" value = "acute" />acute</label>
+            <label><input type="radio" name = "question2" value = "obtuse" />obtuse</label>
+            <label><input type="radio" name = "question2" value = "right angled triangle" />right angled</label>
+        </div>
+        <div class="question-container">
+            <p>What do we call an angle that is smaller than 90 degrees? </p>
+            <label><input type="radio" name = "question3" value = "acute angle" />acute angle</label>
+            <label><input type="radio" name = "question3" value = "obtuse angle" />obtuse angle</label>
+            <label><input type="radio" name = "question3" value = "right angle" />right angle</label>
+        </div>
+        <div class="question-container">
+            <p>Equilateral traingles have all the angles of _____ degrees. </p>
+            <label><input type="radio" name = "question4" value = "45" />45</label>
+            <label><input type="radio" name = "question4" value = "60" />60</label>
+            <label><input type="radio" name = "question4" value = "90" />90</label>
+        </div>
+        <div class="question-container">
+            <p>Formula to find the area of a triangle is: </p>
+            <label><input type="radio" name = "question5" value = "1/2 * (b*h)" />1/2* (b*h) </label>
+            <label><input type="radio" name = "question5" value = "b*h" />b*h</label>
+            <label><input type="radio" name = "question5" value = "none of these" />none of these</label>
         </div>
     </form>
     <button id="submit-answer-btn">Submit Answers</button>
